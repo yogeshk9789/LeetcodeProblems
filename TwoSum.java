@@ -30,7 +30,7 @@ public class TwoSum{
         for(int i = 0; i < nums.length; i++){
 
             int result = target - nums[i];
-            
+
             if(numIndices.containsKey(result)){
                 return new int[] {numIndices.get(result), i};
             }
